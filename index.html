@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta
+      charset="UTF-8"
+      name="viewport"
+      content="width=device-width, initial-scale=1"
+    />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-default">
+      <div class="container-fluid"></div>
+    </nav>
+    <div class="col-md-3"></div>
+    <div class="col-md-6 well">
+      <h3 class="title">Orange Digital Center - Chrono</h3>
+      <hr style="border-top: 1px dotted #ccc" />
+      <div class="timer-wrapper">
+        <h1 id="timer">00:00:00s</h1>
+      </div>
+      <br />
+      <div class="commands" style="text-align: center">
+        <button class="btn btn-start" onclick="startTimer(this)">START</button>
+        <button class="btn btn-stop" onclick="stopTimer()">STOP</button>
+        <button class="btn btn-reset" onclick="resetTimer()">RESET</button>
+      </div>
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
